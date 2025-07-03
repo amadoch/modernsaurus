@@ -1,6 +1,6 @@
 # MODERNSAURUS
 
-Librería utilidades CSS _groseramente simple_ para dar crear estilos pocos cargados.
+Librería utilidades CSS _groseramente simple_.
 
 ## ¿Porque existe esta cosa?
 

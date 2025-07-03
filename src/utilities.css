@@ -1,0 +1,131 @@
+.pad-inline {
+  padding-inline: var(--size-normal);
+}
+
+.pad-inline-sm {
+  padding-inline: var(--size-tiny);
+}
+
+.pad-inline-md {
+  padding-inline: var(--size-medium);
+}
+
+.pad-inline-lg {
+  padding-inline: var(--size-large);
+}
+
+.pad-block {
+  padding-block: var(--size-normal);
+}
+
+.pad-block-sm {
+  padding-block: var(--size-tiny);
+}
+
+.pad-block-md {
+  padding-block: var(--size-medium);
+}
+
+.pad-block-lg {
+  padding-block: var(--size-large);
+}
+
+.mar-block {
+  margin-block: var(--size-normal);
+}
+
+.mar-block-sm {
+  margin-block: var(--size-tiny);
+}
+
+.mar-block-md {
+  margin-block: var(--size-medium);
+}
+
+.mar-block-lg {
+  margin-block: var(--size-large);
+}
+
+.mar-block-ct {
+  margin-block: auto;
+}
+
+.mar-inline {
+  margin-inline: var(--size-normal);
+}
+
+.mar-inline-sm {
+  margin-inline: var(--size-tiny);
+}
+
+.mar-inline-md {
+  margin-inline: var(--size-medium);
+}
+
+.mar-inline-lg {
+  margin-inline: var(--size-large);
+}
+
+.mar-inline-ct {
+  margin-inline: auto;
+}
+
+.rad {
+  border-radius: var(--size-normal);
+}
+
+.rad-start {
+  border-start-start-radius: var(--size-normal);
+  border-end-start-radius: var(--size-normal);
+}
+
+.rad-end {
+  border-start-end-radius: var(--size-normal);
+  border-end-end-radius: var(--size-normal);
+}
+
+.color {
+  background-color: var(--background-color);
+  color: var(--foreground-color);
+}
+
+.border {
+  border-width: var(--size-tiny);
+  border-style: double;
+}
+
+.color-alt {
+  background-color: var(--background-color);
+  color: var(--foreground-color-alt);
+}
+
+.color-invert {
+  background-color: var(--foreground-color);
+  color: var(--background-color);
+}
+
+.color-invert-alt {
+  background-color: var(--foreground-color-alt);
+  color: var(--background-color);
+}
+
+.gap {
+  gap: var(--size);
+}
+
+.gap-tiny {
+  gap: var(--size-tiny);
+}
+
+.gap-medium {
+  gap: var(--size-medium);
+}
+
+.gap-large {
+  gap: var(--size-large);
+}
+
+.sticky-start {
+  position: sticky;
+  top: var(--size-normal);
+}

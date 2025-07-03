@@ -3,62 +3,64 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MODERNSAURUS</title>
+    <title>ModernSaurus</title>
     <link rel="stylesheet" href="index.css">
 </head>
 <body>
-    <header class="pad-inline mar-block-sm text-center color-alt mar-inline-ct rad bold sticky-top">
-        <hgroup class="mar-inline-sm">
-            <h1>¡Noches de Fantasía!</h1>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laudantium laboriosam distinctio veritatis. Laboriosam odio qui eos excepturi incidunt itaque. Temporibus dolor doloremque deleniti corporis culpa. Vero consequuntur ut laudantium vitae.</p>
-        </hgroup>
-        <nav class="flex row flex-evenly color-invert-alt pad-inline pad-block-sm rad">
-            <a class="color-invert-alt" href="#index">Indice</a>
-            <a class="color-invert-alt" href="#catalogue">Catalogo</a>
-            <a class="color-invert-alt" href="#contact">Contacto</a>
+    <header class="cover color-alt mar-block-sm">
+        <nav>
+            <a href="#index">Indice</a>
+            <a href="#catalogue">Catalogo</a>
+            <a href="#contact">Contacto</a>
         </nav>
+        <hgroup>
+            <h1>ModernSaurus</h1><p>Librería CSS <span>groseramente simple</span></p>
+        </hgroup>
     </header>
-    <div class="page flex">
-        <main class="pad-inline pad-block mar-inline-sm color rad basis-md">
-            <article>
-                <h2>Articulos destacados</h2>
-                <section>
+    <div class="page gap-tiny mar-block-md">
+        <main class="main-content color pad-inline-sm">
+            <article class="flow-large">
+                <h2>Articulos publicados</h2>
+                <section class="flow-small">
                     <h3>Lagartijo</h3>
                     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laudantium laboriosam distinctio veritatis. Laboriosam odio qui eos excepturi incidunt itaque. Temporibus dolor doloremque deleniti corporis culpa. Vero consequuntur ut laudantium vitae.</p>
                 </section>
-                <section>
+                <section class="flow-small">
                     <h3>Iguana</h3>
                     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laudantium laboriosam distinctio veritatis. Laboriosam odio qui eos excepturi incidunt itaque. Temporibus dolor doloremque deleniti corporis culpa. Vero consequuntur ut laudantium vitae.</p>
                 </section>
-                <section>
+                <section class="flow-small">
                     <h3>Lagarto</h3>
                     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laudantium laboriosam distinctio veritatis. Laboriosam odio qui eos excepturi incidunt itaque. Temporibus dolor doloremque deleniti corporis culpa. Vero consequuntur ut laudantium vitae.</p>
                 </section>
             </article>
         </main>
-        <aside class="color-invert-alt pad-block pad-inline-sm mar-inline-sm rad shrink-lg">
-            <article>
+        <aside class="sidebar sticky-start color-invert-alt pad-inline-sm">
+            <article class="flow-large">
             <h2>Articulos Nuevos</h2>
-            <section class="color-alt pad-inline rad-end">
+            <section class="flow-small">
                 <h3>Hipocresía en redes</h3>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laudantium laboriosam distinctio veritatis. Laboriosam odio qui eos excepturi incidunt itaque. Temporibus dolor doloremque deleniti corporis culpa. Vero consequuntur ut laudantium vitae.</p>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laudantium laboriosam distinctio veritatis.</p>
             </section>
-            <section class="color-alt pad-inline rad-end">
+            <section class="flow-small">
                 <h3>¿Pesa más una Tonelada de Plumas o Hierros?</h3>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laudantium laboriosam distinctio veritatis. Laboriosam odio qui eos excepturi incidunt itaque. Temporibus dolor doloremque deleniti corporis culpa. Vero consequuntur ut laudantium vitae.</p>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laudantium laboriosam distinctio veritatis.</p>
             </section>
-            <section class="color-alt pad-inline rad-end">
+            <section class="flow-small">
                 <h3>{{article.post_title}}</h3>
                 <p>{{article.post_description}}.</p>
             </section>
-        </article>
+            </article>
         </aside>
     </div>
-    <footer class="pad-inline-md pad-block mar-block-sm color-invert rad">
-        <h2>¡Noches de Fantasía!</h2>
-        <div>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laudantium laboriosam distinctio veritatis. Laboriosam odio qui eos excepturi incidunt itaque. Temporibus dolor doloremque deleniti corporis culpa. Vero consequuntur ut laudantium vitae.</p>
-        </div>
+    <footer class="color-invert mar-block-sm pad-inline-sm rad">
+            <article class="flow-large">
+                <h2>Modernsaurus</h2>
+                <section class="flow-small">
+                    <p>Hecho por diversión, <em>amadoch.</em></p><br/>
+                    <small>2025 derechos reservados, licencia del MIT. Powered by localhost.</small>
+                </section>
+            </article>
     </footer>
 </body>
 </html>
