@@ -1,0 +1,31 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0.5rem;
+  color: var(--foreground-color);
+  background-color: var(--background-color);
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  vertical-align: middle;
+  font-style: italic;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+[class^="alter"] {
+  color: var(--foreground-color-alt);
+}
+
+[class^="invert"] {
+  color: var(--background-color);
+  background-color: var(--foreground-color);
+}
+
+[class$="-alter"] {
+  background-color: var(--foreground-color-alt);
+}
