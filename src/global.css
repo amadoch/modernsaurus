@@ -3,9 +3,17 @@
 }
 
 body {
-  margin: 0.5rem;
+  display: flex;
+  flex-flow: column wrap;
+  min-block-size: var(--default-viewport);
+  margin: var(--size-medium);
   color: var(--foreground-color);
   background-color: var(--background-color);
+}
+
+body > *:not(script), body > *:not(script) + *:not(script) {
+  display: inline-flex;
+  flex-grow: 2;
 }
 
 img {
@@ -17,15 +25,41 @@ img {
   background-size: cover;
 }
 
-[class^="alter"] {
+ul, ol {
+  padding: 0;
+  margin: 0;
+}
+
+li::marker {
+  content: "";
+}
+
+[class*="alter"] {
   color: var(--foreground-color-alt);
 }
 
-[class^="invert"] {
+[class*="invert"] {
   color: var(--background-color);
   background-color: var(--foreground-color);
 }
 
-[class$="-alter"] {
+[class*="invert-alter"] {
+  color: var(--background-color);
   background-color: var(--foreground-color-alt);
+}
+
+[class*="success"] {
+  color: var(--success);
+}
+
+[class*="alert"] {
+  color: var(--alert);
+}
+
+[class*="error"] {
+  color: var(--error);
+}
+
+[class*="disable"] {
+  color: var(--disable);
 }

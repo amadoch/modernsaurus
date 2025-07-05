@@ -1,1 +1,23 @@
+.container {
+  gap: var(--size-normal);
+}
 
+.content {
+  flex: 999 0 28rem;
+  min-inline-size: 50%;
+}
+
+.sidebar {
+  flex: 1 0 8rem;
+}
+
+.collection {
+  flex-flow: row wrap;
+  gap: var(--size-normal);
+  justify-content: space-evenly;
+}
+
+.item {
+  text-align: center;
+  flex: 0 1 40%;
+}
